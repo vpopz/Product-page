@@ -1,0 +1,104 @@
+/* header */
+.nav-link {
+  border-radius: 20px;
+  padding: 5px 10px;
+  margin-left: 5px;
+}
+.nav-link:hover {
+  background-color: #c72931;
+  color: #ffffff;
+  border-radius: 20px;
+}
+.carousel .product-card-wrapper {
+  display: flex;
+  justify-content: center;
+}
+
+.carousel .product-card-wrapper .product-card-image {
+  max-width: 100px; /* Adjust the size as per your requirement */
+  margin: 0 auto; /* Center the image horizontally */
+}
+
+.card {
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1), 0 4px 8px rgba(0, 0, 0, 0.1),
+    0 8px 16px #c72931;
+  border-radius: 15px;
+  border: none;
+}
+
+.card-wrapper {
+  margin: "4px";
+  padding: "5px";
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  filter: invert(100%);
+}
+
+/* CSS */
+.addToCart {
+  align-items: center;
+  background-color: #303a40;
+  border-radius: 12px;
+  box-shadow: transparent 0 0 0 3px, rgba(18, 18, 18, 0.1) 0 6px 20px;
+  box-sizing: border-box;
+  color: #fff;
+  cursor: pointer;
+  display: inline-flex;
+  flex: 1 1 auto;
+  font-family: Inter, sans-serif;
+  font-size: 1.1rem;
+  font-weight: 70;
+  justify-content: center;
+  line-height: 1;
+  margin: 0;
+  outline: none;
+  padding: 10px 15px;
+  text-align: center;
+  text-decoration: none;
+  transition: box-shadow 0.2s, -webkit-box-shadow 0.2s;
+  white-space: nowrap;
+  border: 0;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  border: none;
+}
+
+.addToCart:hover {
+  box-shadow: #c72931 0 0 0 3px, transparent 0 0 0 0;
+}
+
+.buyNow {
+  align-items: center;
+  background-color: #c72931;
+  border-radius: 12px;
+  box-shadow: transparent 0 0 0 3px, rgba(18, 18, 18, 0.1) 0 6px 20px;
+  box-sizing: border-box;
+  color: #fff;
+  cursor: pointer;
+  display: inline-flex;
+  flex: 1 1 auto;
+  font-family: Inter, sans-serif;
+  font-size: 1.1rem;
+  font-weight: 70;
+  justify-content: center;
+  line-height: 1;
+  margin: 0;
+  outline: none;
+  padding: 10px 15px;
+  text-align: center;
+  text-decoration: none;
+  transition: box-shadow 0.2s, -webkit-box-shadow 0.2s;
+  white-space: nowrap;
+  border: 0;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  border: none;
+}
+
+.buyNow:hover {
+  box-shadow: #303a40 0 0 0 3px, transparent 0 0 0 0;
+}
